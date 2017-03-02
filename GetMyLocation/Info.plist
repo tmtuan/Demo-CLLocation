@@ -34,5 +34,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>I would like to use location service so that I can show you your latitude and longitude.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I would like to use location service so that I can show you your latitude and longitude.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>I would like to use location service so that I can show you your latitude and longitude.</string>
 </dict>
 </plist>

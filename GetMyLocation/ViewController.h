@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *longitubeLabel;
+
+- (IBAction)getLocation:(UIButton *)sender;
 
 @end
 
