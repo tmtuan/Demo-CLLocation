@@ -48,7 +48,7 @@
                     </view>
                     <connections>
                         <outlet property="latitudeLabel" destination="LKa-3U-LO0" id="6n5-qT-0BV"/>
-                        <outlet property="longitubeLabel" destination="fZx-A9-S8U" id="TAU-Lh-lUu"/>
+                        <outlet property="longitudeLabel" destination="fZx-A9-S8U" id="KCq-Uc-coa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
