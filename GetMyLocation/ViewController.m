@@ -58,10 +58,8 @@
     self.locationManager.delegate = self;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     self.locationManager.distanceFilter = 1000;
-    
+    https://www.youtube.com/channel/UCCpnqB7ODxdw0HPX-Gy_csQ
     // ask for permission to use location service on the user's device and tell the reason you need to use the service
-    self.locationManager.purpose  = @"I would like to get your location so that I can show you your latitude and longitude";
-    
     [self.locationManager requestAlwaysAuthorization];
     [self.locationManager requestWhenInUseAuthorization];
     

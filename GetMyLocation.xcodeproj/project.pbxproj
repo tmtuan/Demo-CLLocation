@@ -14,6 +14,7 @@
 		62B1731F1E6867460078BE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B1731E1E6867460078BE91 /* Assets.xcassets */; };
 		62B173221E6867460078BE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B173201E6867460078BE91 /* LaunchScreen.storyboard */; };
 		62B1732B1E6868660078BE91 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B1732A1E6868660078BE91 /* CoreLocation.framework */; };
+		62B1732D1E6908A80078BE91 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B1732C1E6908A80078BE91 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		62B173211E6867460078BE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62B173231E6867460078BE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62B1732A1E6868660078BE91 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		62B1732C1E6908A80078BE91 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B1732D1E6908A80078BE91 /* MapKit.framework in Frameworks */,
 				62B1732B1E6868660078BE91 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +89,7 @@
 		62B173291E6868660078BE91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62B1732C1E6908A80078BE91 /* MapKit.framework */,
 				62B1732A1E6868660078BE91 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
