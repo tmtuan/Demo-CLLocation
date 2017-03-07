@@ -48,6 +48,7 @@
     self.latitudeLabel.text = [[NSString alloc] initWithFormat:@"Latitude:%f", newLocation.coordinate.latitude];
     self.longitudeLabel.text = [[NSString alloc] initWithFormat:@"Longitude: %f", newLocation.coordinate.longitude];
     NSLog(@"Just updated my location");
+    [self.locationManager stopUpdatingHeading];
 }
 
 - (void)viewDidLoad {
